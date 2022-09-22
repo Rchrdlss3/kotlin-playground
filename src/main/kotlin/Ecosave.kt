@@ -25,9 +25,9 @@ val Ecosave = FC<Props>{
                 img{
                     src="https://images.squarespace-cdn.com/content/v1/620a5301726e974ebb22054c/1657288061104-PDPM41NCEKJYS4OGBY0P/energy-services.png?format=100w"
                 }
-            p{
-                +"Comprehensive Energy Services"
-            }
+                p{
+                    +"Comprehensive Energy Services"
+                }
                 button{
                     +"Learn More"
                 }
@@ -35,12 +35,12 @@ val Ecosave = FC<Props>{
 
             div{
                 className="info-card"
-            img{
-                src="https://images.squarespace-cdn.com/content/v1/620a5301726e974ebb22054c/1657288115786-7OXZI2BR6Z845T139KTD/no-cost-08.png?format=100w"
-            }
-            p{
-                +"No Upfront Costs"
-            }
+                img{
+                    src="https://images.squarespace-cdn.com/content/v1/620a5301726e974ebb22054c/1657288115786-7OXZI2BR6Z845T139KTD/no-cost-08.png?format=100w"
+                }
+                p{
+                    +"No Upfront Costs"
+                }
                 button{
                     +"Learn More"
                 }

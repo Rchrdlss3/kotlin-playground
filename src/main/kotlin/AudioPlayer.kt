@@ -9,14 +9,11 @@ external interface AudioPlayerProps : Props {
 }
 val AudioPlayer = FC<Props>{
     div{
-        className=""
-
-
-    audio{
-        controls = true
-        source{
-            src = "http://listen.vo.llnwd.net/g3/prvw/6/5/3/8/2/2603428356.mp3"
+        audio{
+            controls = true
+            source{
+                src = "http://listen.vo.llnwd.net/g3/prvw/6/5/3/8/2/2603428356.mp3"
+            }
         }
-    }
     }
 }

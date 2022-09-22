@@ -41,6 +41,19 @@ dependencies {
     //Coroutines & serialization (chapter 8)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
+
+    //React Router
+    implementation(npm("react-router-dom","6.3.0"))
+
+    //Chart
+    implementation(npm("chart.js","3.9.1"))
+
+
+    implementation("org.jetbrains.kotlin-wrappers:kotlin-emotion:11.0.0-pre.267-kotlin-1.6.0")
+
+
+
+
 }
 
 // Heroku Deployment (chapter 9)
